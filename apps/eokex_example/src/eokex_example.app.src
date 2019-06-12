@@ -1,0 +1,17 @@
+{application, eokex_example, [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    eokex,
+    lager
+  ]},
+  {mod, {eokex_example_app, []}},
+  {env, [
+    { public_key, <<"377e0be2-9d9a-4789-821d-b745e03b1f2b">> },
+    { secret_key, <<"1A44F7B54E139DBC9734D72A33D01390">> },
+    { passphrase, <<"Fnw7ty254hdg786">>}
+  ]}
+]}.

@@ -1,0 +1,11 @@
+/.eunit
+/ebin
+/doc
+TEST-*.xml
+.DS_Store
+*.iml
+.idea
+_build
+log
+test/ct_logs
+venv/

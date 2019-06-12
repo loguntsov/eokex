@@ -1,0 +1,26 @@
+{"1.1.0",
+[{<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"75aaeb8415033b07303febbfeba66d6d3413ad06"}},
+  1},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
+ {<<"gun">>,
+  {git,"https://github.com/ninenines/gun.git",
+       {ref,"1c03ef37c3b9060db8483e3870771d900e176c97"}},
+  0},
+ {<<"iso8601">>,
+  {git,"https://github.com/erlsci/iso8601.git",
+       {ref,"fdb0fd12d729c53f4ae6f8c2f893fd6698b8b10e"}},
+  0},
+ {<<"jsx">>,
+  {git,"https://github.com/talentdeficit/jsx.git",
+       {ref,"b1289a16ae3fed51b9f722cbfb6f412c3131f540"}},
+  0},
+ {<<"lager">>,
+  {git,"https://github.com/erlang-lager/lager.git",
+       {ref,"1c0ab772df0535d46a4467857954ee4dcf7f3078"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>}]}
+].

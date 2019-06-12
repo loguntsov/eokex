@@ -1,0 +1,9 @@
+-sname ainet
+
+-setcookie ainet
+
++K true
++A30
+
+-smp enable
++pc unicode

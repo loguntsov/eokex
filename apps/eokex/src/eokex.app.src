@@ -1,0 +1,18 @@
+{application, eokex, [
+  {description, "OKex client"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    lager,
+    gun,
+    crypto,
+    jsx
+  ]},
+  {mod, {eokex_app, []}},
+  {env, [
+    { wss_endpoint, <<"wss://real.okex.com:10442/ws/v3">> },
+    { http_endpoint, <<"https://www.okex.com:443/">>}
+  ]}
+]}.
